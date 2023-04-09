@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+h1 span {
+  color: greenyellow;
+  font-size: 30px;
+}
+h1 {
+  width: 50%;
+  color: white;
+  height: 100%;
+  left: 360px;
+  line-height: 2rem;
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  top: 200px;
+  border-radius: 10px;
+  border: 3px dashed #1c87c9;
+}
+#container {
+  position: relative;
+}
+
+#ball {
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px -1px 2px 9px rgba(77, 255, 0, 0.302);
+  background-color: rgb(77, 255, 0);
+  position: fixed;
+  top: 20px;
+  left: 52.5%;
+  border-radius: 50%;
+}
+
+#rod1,
+#rod2 {
+  width: 200px;
+  height: 20px;
+  position: fixed;
+  left: 50%;
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#rod1 {
+  background-color: blue;
+  top: 0px;
+}
+
+#rod2 {
+  background-color: blueviolet;
+  bottom: 0px;
+}
