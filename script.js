@@ -16,10 +16,11 @@ let score,
 
 let gameOn = false;
 
-let windowWidth = window.innerWidth,
-  windowHeight = window.innerHeight;
+let windowWidth = window.innerWidth;
+let windowHeight = window.innerHeight;
 
-(function () {
+
+function run() {
   rod = localStorage.getItem(storeName);
   maxScore = localStorage.getItem(storeScore);
 
@@ -32,7 +33,8 @@ let windowWidth = window.innerWidth,
   }
 
   resetBoard(rod);
-})();
+}
+run();
 
 function resetBoard(rodName) {
   rod1.style.left = (window.innerWidth - rod1.offsetWidth) / 2 + "px";
